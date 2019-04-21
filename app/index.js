@@ -3,6 +3,6 @@ let ReactDOM = require('react-dom');
 let Game = require('../components/Game.jsx').default;
 
 ReactDOM.render(
-    <Game />,
+    <Game/>,
     document.getElementById('root')
 );
