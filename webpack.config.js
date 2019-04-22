@@ -10,7 +10,7 @@ module.exports = {
     devServer: {
         contentBase: __dirname + '/app',
         compress: true,
-        port: 9000
+        port: 8080
     },
     module: {
         rules: [
