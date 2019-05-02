@@ -1,8 +1,18 @@
 let HTMLWebpackPlugin = require('html-webpack-plugin');
-let HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
-    template: __dirname + '/app/index.html',
-    filename: '/index.html'
-});
+let StylableWebpackPlugin = require('@stylable/webpack-plugin');
+
+const styleableProduction = {
+    outputCSS: true,
+    includeCSSInJS: true,
+    optimize: {
+      removeUnusedComponents: true,
+      removeComments: true,
+      removeStylableDirectives: true,
+      classNameOptimizations: false,
+      shortNamespaces: false,
+      minify: true
+    }
+};
 
 module.exports = {
     mode: 'development',
@@ -10,7 +20,9 @@ module.exports = {
     devServer: {
         contentBase: __dirname + '/app',
         compress: true,
-        port: 8080
+        port: 8080,
+        host: '0.0.0.0',
+        disableHostCheck: true
     },
     module: {
         rules: [
@@ -25,5 +37,5 @@ module.exports = {
         filename: 'bundle.js',
         path: __dirname + '/app'
     },
-    plugins: [HTMLWebpackPluginConfig]
+    plugins: [new StylableWebpackPlugin(styleableProduction)]
 };

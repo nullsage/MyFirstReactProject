@@ -1,8 +1,9 @@
-let React = require('react');
-let ReactDOM = require('react-dom');
-let Game = require('../components/Game.jsx').default;
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import Main from '../components/Main.jsx';
 
 ReactDOM.render(
-    <Game/>,
+    <Main/>,
     document.getElementById('root')
 );

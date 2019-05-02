@@ -90,22 +90,23 @@
 /*!**********************!*\
   !*** ./app/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("let React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nlet ReactDOM = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\nlet Game = __webpack_require__(/*! ../components/Game.jsx */ \"./components/Game.jsx\").default;\n\nReactDOM.render(React.createElement(Game, null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./app/index.js?");
-
-/***/ }),
-
-/***/ "./components/Game.jsx":
-/*!*****************************!*\
-  !*** ./components/Game.jsx ***!
-  \*****************************/
-/*! exports provided: Game, default */
+/*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Game\", function() { return Game; });\nlet React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nconst Game = () => {\n    return React.createElement(\n        'h1',\n        null,\n        'Hello World!'\n    );\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Game);\n\n//# sourceURL=webpack:///./components/Game.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_Main_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Main.jsx */ \"./components/Main.jsx\");\n\n\n\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Main_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./app/index.js?");
+
+/***/ }),
+
+/***/ "./components/Main.jsx":
+/*!*****************************!*\
+  !*** ./components/Main.jsx ***!
+  \*****************************/
+/*! exports provided: Main, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Main\", function() { return Main; });\nlet React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nconst Main = () => {\n    return React.createElement(\n        'h1',\n        null,\n        'Hello World!'\n    );\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Main);\n\n//# sourceURL=webpack:///./components/Main.jsx?");
 
 /***/ }),
 
