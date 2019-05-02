@@ -37,5 +37,8 @@ module.exports = {
         filename: 'bundle.js',
         path: __dirname + '/app'
     },
-    plugins: [new StylableWebpackPlugin(styleableProduction)]
+    plugins: [new StylableWebpackPlugin(styleableProduction)],
+    resolve: {
+        extensions: [".webpack.js", ".web.js", ".js", ".jsx", ".json"]
+    }
 };
