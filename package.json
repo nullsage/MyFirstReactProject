@@ -1,5 +1,5 @@
 {
-  "name": "myfirstproject",
+  "name": "Remnant-Talent-Calculator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nullsage/MyFirstReactProject.git"
+    "url": "git+https://github.com/nullsage/Remnant-Talent-Calculator.git"
   },
   "author": "Mark Inman",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nullsage/MyFirstReactProject/issues"
+    "url": "https://github.com/nullsage/Remnant-Talent-Calculator/issues"
   },
-  "homepage": "https://github.com/nullsage/MyFirstReactProject#readme",
+  "homepage": "https://github.com/nullsage/Remnant-Talent-Calculator#readme",
   "dependencies": {
     "@stylable/webpack-plugin": "^1.1.4",
     "prop-types": "^15.7.2",
